@@ -1,14 +1,18 @@
 Administracion y seguridad de redes
+    -Investigacion en equipo (6 Integrantes Revision 7,8/2 Entrega 24/2)
 
 Auditoria en tecnologias de informacion
 
 Ingenieria del conocimiento
+    -Como se representa el conocimiento
+    -Investigar la definicion de ingenieria del conocimiento
+    Examen 8/2
 
 Negocios electronicos
 
 Taller de investigacion 2
 
 Computo en la nube
-    -Desglosar ventajas y desventajas del computo en la nube y cual es su clasificacion (Cuaderno)
+    -Evolucion de la nube en mexico
 
 Proyectos de innovacion
