@@ -4,14 +4,12 @@ Administracion y seguridad de redes
 Auditoria en tecnologias de informacion
 
 Ingenieria del conocimiento
-    Examen 8/2
 
 Negocios electronicos
 
 Taller de investigacion 2
 
 Computo en la nube
- Individual Caracteristicas del servicio saas  escrito  (16/2)
  En equipo Investigar software de servicios *tema a escoger* (20/2)
 
 Proyectos de innovacion
