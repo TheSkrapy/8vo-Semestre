@@ -1,8 +1,8 @@
 Administracion y seguridad de redes
-    -Investigacion en equipo (6 Integrantes Revision 7,8/2 Entrega 24/2)
+    -Investigacion en equipo unidad 2 
 
 Auditoria en tecnologias de informacion
-	-Preguntas en equipo
+	-Investigar 
 
 Ingenieria del conocimiento
 	-Documento y estudiar
@@ -10,10 +10,11 @@ Ingenieria del conocimiento
 Negocios electronicos
 	-Expo crm
 	-Expo csm
+	-Expo erp
 
 Taller de investigacion 2
-	-Actividad 2b (Preguntas) y 3 (Desarrollo de antecedentes)
+	-Actividades 4 y 5
 
 Computo en la nube
-
+	
 Proyectos de innovacion

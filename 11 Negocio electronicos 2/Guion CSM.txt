@@ -4,30 +4,61 @@
 
  Para empezar existen 2 formas de utilizar git, una forma es desde la teminal y otra desde una aplicacion llamada git bash
 
- para empezar, vamos a ver la forma mas comun, que esta es desde la terminal, existen sistemas que ya cuentan con git instalado, y solamente tenemos que revisar si este esta instalado con el siguiente comando en la terminal "git --version", si este esta instalado nos aparecera la version con la cual contamos de git
+ para empezar, vamos a ver la forma mas comun, que esta es desde la terminal, existen sistemas que ya cuentan con git instalado, y solamente tenemos
+ que revisar si este esta instalado con el siguiente comando en la terminal "git --version", si este esta instalado nos aparecera la version con la cual contamos de git
 
- de no ser asi, y dependiendo nuestro sistema operativo tendremos que darle permisos de administrador, en caso de windows, abriendo la terminal como administrador, en casos de linux colocando "sudo" entes del resto del comando siguiente "apt-get install git", tras esto esperaremos en lo que se instala y vamos siguiendo los pasos que nos diga si es que son requeridos, en este caso como ya esta instalado, proseguiremos.
+ de no ser asi, y dependiendo nuestro sistema operativo tendremos que darle permisos de administrador, en caso de windows, abriendo la terminal como administrador,
+ en casos de linux colocando "sudo" antes del resto del comando siguiente "apt-get install git", tras esto esperaremos en lo que se instala y vamos siguiendo
+ los pasos que nos diga si es que son requeridos, en este caso como ya esta instalado, proseguiremos.
 
- En caso de no querer usar la terminal, tenemos la opcion de usar git bash, esta es una version de escritorio que podemos descargar desde la pagina de git, solo es cuestion de seguir los pasos que esta nos vaya proporcionando y no deberiamos tener ningun problema ya que es como cualquier otra aplicacion
+ En caso de no querer usar la terminal, tenemos la opcion de usar git bash, esta es una version de escritorio que podemos descargar desde la pagina de git,
+ solo es cuestion de seguir los pasos que esta nos vayaproporcionando y no deberiamos tener ningun problema ya que es como cualquier otra aplicacion
 
  Para este caso nos centraremos en la version de terminal
 
- para poder empezar a utilizar git, solamente tenemos que buscar la carpeta de archivos que queramos controlar o crear una nueva, podemos abirla y/o crearla desde la terminal o si queremos buscarla desde el escritorio y cuando estemos dentro de ella, dar click derecho y abrir terminal
+ para poder empezar a utilizar git, solamente tenemos que buscar la carpeta de archivos que queramos controlar o crear una nueva, podemos abirla y/o crearla 
+desde la terminal o si queremos buscarla desde el escritorio y cuando estemos dentro de ella, dar click derecho y abrir terminal
 
- Una vez abierta la terminal tenemos que inicializar un repositorio de git con el comando siguiente "git init" si no hacemos esto, git no nos permitira usar otros comandos, ya que no contariamos con un repositorio con el cual trabajar
+ Una vez abierta la terminal tenemos que inicializar un repositorio de git con el comando siguiente "git init" si no hacemos esto, 
+git no nos permitira usar otros comandos, ya que no contariamos con un repositorio con el cual trabajar
 
- a partir de aqui podremos trabajar con nuevos archivos o modificar los que ya teniamos en la carpeta, pues bien al ser un controlador de versiones el proposito de git es tener una forma de organizar principalmente codigo, sin embargo tambien se puee usar para archivos de otras caracteristicas
+ a partir de aqui podremos trabajar con nuevos archivos o modificar los que ya teniamos en la carpeta, pues bien al ser un controlador de versiones 
+el proposito de git es tener una forma de organizar principalmente codigo, sin embargo tambien se puee usar para archivos de otras caracteristicas
 
- pues bien al terminar de realizar una modificacion a un archivo es necesario darlos de alta dentro de git, con git se podria decir que contamos con varias "estaciones" esto para permitir un flujo de trabajo y organizacion para revisar en que estdo nos encontramos ponemos el comando "git status", la primera de estas es cuando hacemos uso del comando "git add " en este comando podemos poner ya sea el nombre del archivo para solamente mandar dicho documento o podemos poner . para mandar todos los archivos que tenemos en este proceso el archivo podriamos decir que esta en un limbo, todavia no pasa a estar guardado como una version pero tampoco esta como un archivo sin seguimiento
+ pues bien al terminar de realizar una modificacion a un archivo es necesario darlos de alta dentro de git, con git se podria decir que contamos con varias
+ "estaciones" esto para permitir un flujo de trabajo y organizacion, para revisar en que estado nos encontramos ponemos el comando "git status",
+ la primera de estas es cuando hacemos uso del comando "git add " en este comando podemos poner ya sea el nombre del archivo para solamente mandar 
+dicho documento o podemos poner . para mandar todos los archivos que tenemos en este proceso el archivo podriamos decir que esta en un limbo, 
+todavia no pasa a estar guardado como una version pero tampoco esta como un archivo sin seguimiento
 
- para poder guardarlo como una version y mandarlo al repositorio local tenemos que hacer "git commit -m "mensaje" " esto ya guardaria una version a la que podemos regresar en un futuro si asi lo desearamos
+ para poder guardarlo como una version y mandarlo al repositorio local tenemos que hacer "git commit -m "mensaje" " esto ya guardaria una version
+ a la que podemos regresar en un futuro si asi lo desearamos
 
- a partir de aqui podemos trabajar solamente con el repositorio local, no obstante tambien podemos hacer uso de repositorios remotos, entre ellos podemos encontrar github como el mas famoso, gitlab, toistodgit, entre otros, para este caso haremos uso de github, de este modo, es necesario y haber creado una cuenta en git y configurar la terminal con su nombre y usuario, para ello utilizaremos los comandos "git config --global user.name "Tu Nombre"" y tambien "git config --global user.email "Tu Correo"" es necesario que esta informacion sea la misma a la de tu cuenta de git remoto
+ a partir de aqui podemos trabajar solamente con el repositorio local, no obstante tambien podemos hacer uso de repositorios remotos,
+ entre ellos podemos encontrar github como el mas famoso, gitlab, toistodgit, entre otros, para este caso haremos uso de github, de este modo, 
+es necesario y haber creado una cuenta en git y configurar la terminal con su nombre y usuario, para ello utilizaremos los comandos 
+"git config --global user.name "Tu Nombre"" y tambien "git config --global user.email "Tu Correo"" es necesario que esta informacion sea la misma a la
+ de tu cuenta de git remoto
 
- Para mandar la informacion que deseamos a nuetro git remoto en este caso github, haremos uso del comando "git push origin "nombre de tu rama de trabajo"" por lo general "git push origin master", esto mandara los cambios a tu repositorio remoto donde otras personas podran bajar tus archivos para trabajar en conjunto si es un trabajo colaborativo o compiar tu repositorio y trabajar de forma individual con software de codigo abierto, para poder hacer esto, en primer instancia tenemos que hacer uso del comando "git clone "url"", tras ello si el repositorio se sigue actualizando podremos hacer uso de git pull/fetch o continuar nosotros con ese trabajo
+ Para mandar la informacion que deseamos a nuetro git remoto en este caso github tendremos que crea un repositorio dentro de la pagina de github
+esto para dedicar un espacio a lo que queremos desarrollar, haremos uso del comando "git push origin "nombre de tu rama de trabajo""
+ por lo general "git push origin master", esto mandara los cambios a tu repositorio remoto donde otras personas podran bajar tus archivos para trabajar en 
+conjunto si es un trabajo colaborativo o compiar tu repositorio y trabajar de forma individual con software de codigo abierto, para poder hacer esto, en primer 
+instancia tenemos que hacer uso del comando "git clone "url"", tras ello si el repositorio se sigue actualizando podremos hacer uso de git pull/fetch o continuar
+ nosotros con ese trabajo
 
- Para entender las ramas, solamente tenemos que comprender que es como si el espacio se dividiera como bien su nombre lo dice, en una rama, sieempre existe una rama principal, con la cual uniremos toda la informacion pero trabajaremos estas ramas como si de trabajo en equipo por separado se tratase, cada quien trabajando en la parte que le fue encargada, para revisar las ramas usaremos el comando "git branch" este nos desplegara las ramas existentes en nuestro repositorio si quisieramos crear una rama nueva usariamos el siguiente comando "git branch "nombre de la rama""  y si quisieramos movernos entre una rama utilizariamos "git checkout "nombre de la  rama""
+ Para entender las ramas, solamente tenemos que comprender que es como si el espacio se dividiera como bien su nombre lo dice, en una rama, sieempre existe una
+ rama principal, con la cual uniremos toda la informacion pero trabajaremos estas ramas como si de trabajo en equipo por separado se tratase, cada quien trabajando 
+en la parte que le fue encargada, para revisar las ramas usaremos el comando "git branch" este nos desplegara las ramas existentes en nuestro repositorio si 
+quisieramos crear una rama nueva usariamos el siguiente comando "git branch "nombre de la rama""  y si quisieramos movernos entre una rama utilizariamos
+ "git checkout "nombre de la  rama""
 
- Este mismo comando nos sirve para hacer regresiones a versiones anteriores de nuestros archivos, es decir nos permite regresar a commit que hayamos realizado antes, primero tenemos que revisar los commit que hayamos realizado esto lo hacemos con "git log" es aqui donde podemos ver todos y cada uno de los commits realizados, para poder saber cual es al que queremos regresar podremos guiarnos deacuerdo al mensaje que hayamos puesto en caso de querer regresar a determinado commit tendremos que copiar el hash, el cual es el que se encuentra en la parte superior y parece una serie de numeros sin sentido, tras ello haremos uso del comando "git checkout "hash"" es con esto que nuestros archivos dentro de la carpeta serian modificados por el contenido y archivos que estaban en ese entonces
+ Este mismo comando nos sirve para hacer regresiones a versiones anteriores de nuestros archivos, es decir nos permite regresar a commit que hayamos
+ realizado antes, primero tenemos que revisar los commit que hayamos realizado esto lo hacemos con "git log" es aqui donde podemos ver todos y cada uno
+ de los commits realizados, para poder saber cual es al que queremos regresar podremos guiarnos deacuerdo al mensaje que hayamos puesto en caso de querer 
+regresar a determinado commit tendremos que copiar el hash, el cual es el que se encuentra en la parte superior y parece una serie de numeros sin sentido, 
+tras ello haremos uso del comando "git checkout "hash"" es con esto que nuestros archivos dentro de la carpeta serian modificados por el contenido y archivos 
+que estaban en ese entonces
 
- Estos serian los comandos mas basicos con llos cuales contamos en git, hacer uso correcto de ellos es importante, puesto que se nos puede complicar al inicio, sin embargo es de las herramientas mas importantes y necesarias para los desarrolladores hoy en dia
+ Estos serian los comandos mas basicos con los cuales contamos en git, hacer uso correcto de ellos es importante, puesto que se nos puede complicar al inicio, 
+sin embargo es de las herramientas mas importantes y necesarias para los desarrolladores hoy en dia
