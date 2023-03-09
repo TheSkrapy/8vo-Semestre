@@ -1,5 +1,4 @@
 Administracion y seguridad de redes
-    -Investigacion en equipo unidad 2 
 
 Auditoria en tecnologias de informacion
 	-Investigar 
