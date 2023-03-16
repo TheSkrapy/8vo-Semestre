@@ -1,19 +1,19 @@
 Administracion y seguridad de redes
 
 Auditoria en tecnologias de informacion
-	-Investigar 
+	-Documentacion negocio web (Urgente)
 
 Ingenieria del conocimiento
-	-Documento y estudiar
+	-Diagrama de relacion con ontologia (Martes)
 
 Negocios electronicos
-	-Expo crm
-	-Expo csm
-	-Expo erp
+	-Expo erp (Domingo)
 
 Taller de investigacion 2
-	-Actividades 4 y 5
+	-Corregir justificacion y antecedentes (Indefinido)
 
 Computo en la nube
-	
+	-Terminar videojuego (Martes)
+
 Proyectos de innovacion
+	-Armar el prototipo (Indefinido)
